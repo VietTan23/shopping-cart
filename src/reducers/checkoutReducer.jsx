@@ -10,13 +10,13 @@ const initialState = {
 const checkoutReducer = (state = initialState, action) => {
     switch (action.type) {
         case actionTypes.CHECKOUT_REQUEST:
-        // Handle checkout request
-
+            // Handle checkout request
+            break;
         case actionTypes.CHECKOUT_SUCCESS:
-        // Handle checkout success
+            // Handle checkout success
 
-        // Handle other actions as needed
-
+            // Handle other actions as needed
+            break;
         default:
             return state;
     }
