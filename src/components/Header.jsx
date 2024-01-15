@@ -15,6 +15,7 @@ const Header = () => {
         <i className="fas fa-shopping-cart"></i> Cart
       </Link>
     </header>
+    
   );
 };
 
